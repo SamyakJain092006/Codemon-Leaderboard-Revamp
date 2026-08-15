@@ -1,0 +1,68 @@
+name: Update Leaderboard
+
+on:
+  workflow_dispatch:
+    inputs:
+      contest_id:
+        description: 'Codeforces Contest ID'
+        required: true
+        type: string
+      contest_name:
+        description: 'Contest Name'
+        required: true
+        type: string
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Fetch contest standings
+        run: |
+          python scripts/fetch_standings.py ${{ github.event.inputs.contest_id }} "${{ github.event.inputs.contest_name }}"
+      
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Commit and push changes
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "Update leaderboard for contest ${{ github.event.inputs.contest_id }}"
+          git push
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Build frontend
+        run: |
+          npm ci
+          npm run build
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
