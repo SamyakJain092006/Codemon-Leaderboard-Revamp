@@ -126,7 +126,3 @@ The site is automatically deployed to GitHub Pages when the workflow runs. Confi
   ]
 }
 ```
-
-## License
-
-MIT
