@@ -68,6 +68,7 @@ def api_get(method, params=None, api_key=None, api_secret=None):
     
     req_params = params or {}
     req_params['apiKey'] = key
+    req_params['time'] = str(int(time.time()))
     req_params['apiSig'] = make_api_sig(method, req_params, secret)
     
     url = f'https://codeforces.com/api/{method}'
@@ -104,7 +105,7 @@ def load_group_credentials():
 
 def fetch_group_contest(group_id, contest_id):
     api_key, api_secret = load_group_credentials()
-    params = {'groupId': group_id, 'contestId': str(contest_id), 'apiKey': api_key}
+    params = {'groupId': group_id, 'contestId': str(contest_id), 'apiKey': api_key,'time': str(int(time.time()))}
     signed = {
         **params,
         'apiSig': make_api_sig(GROUP_STANDINGS_API, params, api_secret),
