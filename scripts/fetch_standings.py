@@ -57,7 +57,7 @@ def load_credentials():
     return api_key, api_secret
 
 
-def api_get(url, api_key=None, api_secret=None):
+def api_get(method, params=None, api_key=None, api_secret=None):
     key, secret = api_key or load_credentials()[0], api_secret or load_credentials()[1]
     if not key or not secret:
         raise SystemExit(
@@ -65,23 +65,27 @@ def api_get(url, api_key=None, api_secret=None):
             'CODEFORCES_API_SECRET environment variables, or provide '
             'api_key/api_secret arguments.'
         )
-    rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
-    sig_source = f'{rand}/contest.standings?apiKey={key}{secret}'
-    api_sig = rand + hashlib.sha512(sig_source.encode()).hexdigest()
-    params = {'apiKey': key, 'apiSig': api_sig}
-    response = requests.get(url, params=params, timeout=30)
+    
+    req_params = params or {}
+    req_params['apiKey'] = key
+    req_params['apiSig'] = make_api_sig(method, req_params, secret)
+    
+    url = f'https://codeforces.com/api/{method}'
+    response = requests.get(url, params=req_params, timeout=30)
     response.raise_for_status()
     payload = response.json()
     if payload['status'] != 'OK':
         raise Exception(f"API error: {payload.get('comment', 'Unknown error')}")
     return payload['result']
+
+
 def fetch_contest_list():
-    return api_get(LIST_API)
+    return api_get('contest.list')
 
 
 def fetch_contest(contest_id):
     api_key, api_secret = load_credentials()
-    return api_get(f'{STANDINGS_API}?contestId={contest_id}', api_key, api_secret)
+    return api_get('contest.standings', {'contestId': str(contest_id)}, api_key, api_secret)
 
 
 def load_group_credentials():
@@ -100,10 +104,9 @@ def load_group_credentials():
 
 def fetch_group_contest(group_id, contest_id):
     api_key, api_secret = load_group_credentials()
-    params = {'groupId': group_id, 'contestId': str(contest_id)}
+    params = {'groupId': group_id, 'contestId': str(contest_id), 'apiKey': api_key}
     signed = {
         **params,
-        'apiKey': api_key,
         'apiSig': make_api_sig(GROUP_STANDINGS_API, params, api_secret),
     }
     response = requests.get(
