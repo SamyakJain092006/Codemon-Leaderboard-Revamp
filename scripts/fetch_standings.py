@@ -30,6 +30,7 @@ import os
 import secrets
 import string
 import sys
+import time
 from datetime import datetime, timezone
 from urllib.parse import urlencode
 
@@ -46,7 +47,7 @@ CONTESTS_INDEX_PATH = os.path.join(CONTESTS_DIR, 'index.json')
 def make_api_sig(method, params, api_secret):
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
     query = urlencode(sorted(params.items()))
-    sig_source = f'{rand}/{method}?{query}{api_secret}'
+    sig_source = f'{rand}/{method}?{query}#{api_secret}'
     return rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
 
@@ -65,20 +66,15 @@ def api_get(url, api_key=None, api_secret=None):
             'api_key/api_secret arguments.'
         )
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
-    query = urlencode(sorted({'apiKey': key}.items()))
-    sig_source = f'{rand}/contest.standings?{query}{secret}'
+    sig_source = f'{rand}/contest.standings?apiKey={key}{secret}'
     api_sig = rand + hashlib.sha512(sig_source.encode()).hexdigest()
     params = {'apiKey': key, 'apiSig': api_sig}
-    param_str = urlencode(params)
-    url = f'{url}?{param_str}'
-    response = requests.get(url, timeout=30)
+    response = requests.get(url, params=params, timeout=30)
     response.raise_for_status()
     payload = response.json()
     if payload['status'] != 'OK':
         raise Exception(f"API error: {payload.get('comment', 'Unknown error')}")
     return payload['result']
-
-
 def fetch_contest_list():
     return api_get(LIST_API)
 
