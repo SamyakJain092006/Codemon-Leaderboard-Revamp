@@ -50,7 +50,27 @@ def make_api_sig(method, params, api_secret):
     return rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
 
-def api_get(url):
+def load_credentials():
+    api_key = os.environ.get('CODEFORCES_API_KEY')
+    api_secret = os.environ.get('CODEFORCES_API_SECRET')
+    return api_key, api_secret
+
+
+def api_get(url, api_key=None, api_secret=None):
+    key, secret = api_key or load_credentials()[0], api_secret or load_credentials()[1]
+    if not key or not secret:
+        raise SystemExit(
+            'API credentials required. Set CODEFORCES_API_KEY and '
+            'CODEFORCES_API_SECRET environment variables, or provide '
+            'api_key/api_secret arguments.'
+        )
+    rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
+    query = urlencode(sorted({'apiKey': key}.items()))
+    sig_source = f'{rand}/contest.standings?{query}{secret}'
+    api_sig = rand + hashlib.sha512(sig_source.encode()).hexdigest()
+    params = {'apiKey': key, 'apiSig': api_sig}
+    param_str = urlencode(params)
+    url = f'{url}?{param_str}'
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     payload = response.json()
@@ -64,7 +84,8 @@ def fetch_contest_list():
 
 
 def fetch_contest(contest_id):
-    return api_get(f'{STANDINGS_API}?contestId={contest_id}')
+    api_key, api_secret = load_credentials()
+    return api_get(f'{STANDINGS_API}?contestId={contest_id}', api_key, api_secret)
 
 
 def load_group_credentials():
