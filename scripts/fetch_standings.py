@@ -36,7 +36,7 @@ from urllib.parse import urlencode
 import requests
 
 STANDINGS_API = 'https://codeforces.com/api/contest.standings'
-GROUP_STANDINGS_API = 'group.contest.standings'
+GROUP_STANDINGS_API = 'contest.standings'
 LIST_API = 'https://codeforces.com/api/contest.list'
 
 CONTESTS_DIR = os.path.join('data', 'contests')
