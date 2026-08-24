@@ -53,12 +53,24 @@ def make_api_sig(method, params, api_secret):
 
 
 def api_get(url, api_key, api_secret, contest_id):
-    """Make authenticated API request to Codeforces.
+    """Make API request to Codeforces.
 
     Signs the request with apiKey and apiSig using the Codeforces
-    authentication protocol. Properly handles URLs that already contain
-    query parameters (e.g. ?contestId=XXX).
+    authentication protocol when credentials are provided. Properly handles
+    URLs that already contain query parameters (e.g. ?contestId=XXX).
+
+    Falls back to unauthenticated request if api_key/api_secret are None.
     """
+    # If no credentials, make unauthenticated request (add contestId to URL)
+    if not api_key and not api_secret:
+        url = f'{url}?contestId={contest_id}'
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        payload = response.json()
+        if payload['status'] != 'OK':
+            raise Exception(f"API error: {payload.get('comment', 'Unknown error')}")
+        return payload['result']
+
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
 
     # Parse existing URL to merge params correctly (avoids double ?)
@@ -201,37 +213,41 @@ def main():
         parser.print_usage()
         sys.exit(1)
 
-    # Load credentials - will raise SystemExit if not set
+    # Try authenticated request first, fall back to unauthenticated
     api_key, api_secret = load_credentials()
-    if not api_key or not api_secret:
-        raise SystemExit(
-            'API credentials required. Set CODEFORCES_API_KEY and '
-            'CODEFORCES_API_SECRET environment variables, or provide '
-            'them via the environment.'
-        )
+    result = None
+    used_auth = False
 
-    # Fetch contest standings via authenticated API call
-    print(f"Fetching standings for contest {contest_id}"
-          + (f" ('{contest_name}')" if contest_name else "") + "...")
-    try:
-        result = api_get(STANDINGS_API, api_key, api_secret, contest_id)
-    except Exception as e:
-        print(f"Error fetching contest: {e}")
-        sys.exit(1)
+    if api_key and api_secret:
+        try:
+            result = api_get(STANDINGS_API, api_key, api_secret, contest_id)
+            used_auth = True
+        except Exception as e:
+            # Auth failed (e.g., invalid credentials, or endpoint doesn't accept auth)
+            # Fall back to unauthenticated request
+            print(f"Warning: Authenticated request failed ({type(e).__name__}), "
+                  "falling back to unauthenticated request")
+            api_key, api_secret = None, None
+
+    if result is None:
+        # Unauthenticated request
+        result = api_get(STANDINGS_API, None, None, contest_id)
+        used_auth = False
 
     # Build the lean JSON and save
     contest_json = build_contest_json(contest_id, contest_name, result)
     print(f"Fetched {len(contest_json['standings'])} participants")
 
-    save_standings(contest_json, args.contest_id)
+    save_standings(contest_json, contest_id)
 
     # Update the contests index
     index = load_index()
-    update_index(index, args.contest_id, contest_json['contestName'],
+    update_index(index, contest_id, contest_json['contestName'],
                  contest_json.get('startTime'))
     save_index(index)
-    print("Updated contests index")
 
+    auth_msg = " (using API authentication)" if used_auth else ""
+    print(f"Updated contests index{auth_msg}")
     print("Done.")
 
 
