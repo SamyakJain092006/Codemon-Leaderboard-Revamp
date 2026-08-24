@@ -6,9 +6,18 @@ Produces data/contests/contest_<id>.json containing per-participant
 rank, score, solved count and per-problem results with best submission
 times (for First-AC detection).
 
+Group contests
+use the authenticated group.contest.standings endpoint and require API
+credentials generated at https://codeforces.com/settings/api:
+
+    export CODEFORCES_API_KEY=...
+    export CODEFORCES_API_SECRET=...
+
 Usage:
     python fetch_standings.py <contest_id> [contest_name]
-    python fetch_standings.py --contest-id ID [--contest-name NAME]
+    python fetch_standings.py <contest_id> [contest_name] --group GROUP_ID
+    python fetch_standings.py --contest-id ID [--contest-name NAME] --group GROUP_ID
+    python fetch_standings.py --list
 
 Note: API credentials must be set via environment variables:
     export CODEFORCES_API_KEY=...
@@ -30,6 +39,7 @@ import requests
 
 # API endpoints
 STANDINGS_API = 'https://codeforces.com/api/contest.standings'
+GROUP_STANDINGS_API = 'group.contest.standings'
 LIST_API = 'https://codeforces.com/api/contest.list'
 
 # Output directories
@@ -41,6 +51,21 @@ def load_credentials():
     """Load API credentials from environment variables."""
     api_key = os.environ.get('CODEFORCES_API_KEY')
     api_secret = os.environ.get('CODEFORCES_API_SECRET')
+    return api_key, api_secret
+
+
+def load_group_credentials():
+    """Load group contest API credentials from environment variables."""
+    api_key = os.environ.get('CODEFORCES_API_KEY')
+    api_secret = os.environ.get('CODEFORCES_API_SECRET')
+    if not api_key or not api_secret:
+        raise SystemExit(
+            'Group contests require Codeforces API credentials.\n'
+            'Generate them at https://codeforces.com/settings/api (you must '
+            'be an admin of the group), then export:\n'
+            '  export CODEFORCES_API_KEY=...\n'
+            '  export CODEFORCES_API_SECRET=...'
+        )
     return api_key, api_secret
 
 
@@ -99,7 +124,35 @@ def api_get(url, api_key, api_secret, contest_id):
     return payload['result']
 
 
-def build_contest_json(contest_id, contest_name, result):
+def fetch_group_contest(group_id, contest_id):
+    """Fetch standings for a group (mashup) contest.
+
+    Uses the group.contest.standings endpoint with API v2 authentication.
+    """
+    api_key, api_secret = load_group_credentials()
+    params = {'groupId': group_id, 'contestId': str(contest_id)}
+    signed = {
+        **params,
+        'apiKey': api_key,
+        'apiSig': make_api_sig(GROUP_STANDINGS_API, params, api_secret),
+    }
+    response = requests.get(
+        f'https://codeforces.com/api/{GROUP_STANDINGS_API}', params=signed, timeout=30,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if payload['status'] != 'OK':
+        comment = payload.get('comment', 'Unknown error')
+        if 'authorization' in comment.lower() or 'apikey' in comment.lower():
+            comment += (
+                ' (check that CODEFORCES_API_KEY/CODEFORCES_API_SECRET are valid '
+                f'and your account administers group {group_id})'
+            )
+        raise Exception(f'API error: {comment}')
+    return payload['result']
+
+
+def build_contest_json(contest_id, contest_name, result, is_group=False):
     """Build the lean JSON structure from API result.
 
     Extracts only what compute_scores.py needs:
@@ -197,11 +250,13 @@ def main():
     parser.add_argument('contest_id', type=int, nargs='?', default=None, metavar='contest_id',
                         help='Codeforces contest ID (positional or --contest-id)')
     parser.add_argument('--contest-id', dest='contest_id_opt', type=int,
-                        help='Codeforces contest ID (flag form)')
+                        help='Codeforces contest ID (flag form, preferred in scripts)')
     parser.add_argument('contest_name', nargs='?', default=None, metavar='contest_name',
                         help='Display name for the contest (positional or --contest-name)')
     parser.add_argument('--contest-name', dest='contest_name_opt',
                         help='Display name for the contest (flag form)')
+    parser.add_argument('--group', dest='group_id', help='Codeforces group ID for mashup contests')
+    parser.add_argument('--list', action='store_true', help='List recent public contests')
     args = parser.parse_args()
 
     # Resolve contest_id from positional or flag form
@@ -213,29 +268,47 @@ def main():
         parser.print_usage()
         sys.exit(1)
 
-    # Try authenticated request first, fall back to unauthenticated
-    api_key, api_secret = load_credentials()
-    result = None
-    used_auth = False
+    # Handle group contests
+    is_group = args.group_id is not None
+    group_id = args.group_id
 
-    if api_key and api_secret:
+    if is_group:
+        # Group contest mode
+        if not group_id:
+            parser.print_usage()
+            sys.exit(1)
+        print(f"Fetching group contest standings for group {group_id}, contest {contest_id}...")
         try:
-            result = api_get(STANDINGS_API, api_key, api_secret, contest_id)
+            result = fetch_group_contest(group_id, contest_id)
             used_auth = True
         except Exception as e:
-            # Auth failed (e.g., invalid credentials, or endpoint doesn't accept auth)
-            # Fall back to unauthenticated request
-            print(f"Warning: Authenticated request failed ({type(e).__name__}), "
-                  "falling back to unauthenticated request")
-            api_key, api_secret = None, None
-
-    if result is None:
-        # Unauthenticated request
-        result = api_get(STANDINGS_API, None, None, contest_id)
+            print(f"Error fetching group contest: {e}")
+            sys.exit(1)
+    else:
+        # Individual contest mode
+        # Try authenticated request first, fall back to unauthenticated
+        api_key, api_secret = load_credentials()
+        result = None
         used_auth = False
 
+        if api_key and api_secret:
+            try:
+                result = api_get(STANDINGS_API, api_key, api_secret, contest_id)
+                used_auth = True
+            except Exception as e:
+                # Auth failed (e.g., invalid credentials, or endpoint doesn't accept auth)
+                # Fall back to unauthenticated request
+                print(f"Warning: Authenticated request failed ({type(e).__name__}), "
+                      "falling back to unauthenticated request")
+                api_key, api_secret = None, None
+
+        if result is None:
+            # Unauthenticated request
+            result = api_get(STANDINGS_API, None, None, contest_id)
+            used_auth = False
+
     # Build the lean JSON and save
-    contest_json = build_contest_json(contest_id, contest_name, result)
+    contest_json = build_contest_json(contest_id, contest_name, result, is_group=is_group)
     print(f"Fetched {len(contest_json['standings'])} participants")
 
     save_standings(contest_json, contest_id)
