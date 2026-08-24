@@ -182,11 +182,24 @@ def save_standings(contest_json, contest_id):
 
 def main():
     parser = argparse.ArgumentParser(description='Fetch Codemon contest standings.')
-    parser.add_argument('contest_id', type=int,
-                        help='Codeforces contest ID')
-    parser.add_argument('contest_name', nargs='?', default=None,
-                        help='Display name for the contest (optional)')
+    parser.add_argument('contest_id', type=int, nargs='?', default=None, metavar='contest_id',
+                        help='Codeforces contest ID (positional or --contest-id)')
+    parser.add_argument('--contest-id', dest='contest_id_opt', type=int,
+                        help='Codeforces contest ID (flag form)')
+    parser.add_argument('contest_name', nargs='?', default=None, metavar='contest_name',
+                        help='Display name for the contest (positional or --contest-name)')
+    parser.add_argument('--contest-name', dest='contest_name_opt',
+                        help='Display name for the contest (flag form)')
     args = parser.parse_args()
+
+    # Resolve contest_id from positional or flag form
+    contest_id = args.contest_id if args.contest_id is not None else args.contest_id_opt
+    # Resolve contest_name from positional or flag form
+    contest_name = args.contest_name if args.contest_name is not None else args.contest_name_opt
+
+    if contest_id is None:
+        parser.print_usage()
+        sys.exit(1)
 
     # Load credentials - will raise SystemExit if not set
     api_key, api_secret = load_credentials()
@@ -198,16 +211,16 @@ def main():
         )
 
     # Fetch contest standings via authenticated API call
-    print(f"Fetching standings for contest {args.contest_id}"
-          + (f" ('{args.contest_name}')" if args.contest_name else "") + "...")
+    print(f"Fetching standings for contest {contest_id}"
+          + (f" ('{contest_name}')" if contest_name else "") + "...")
     try:
-        result = api_get(STANDINGS_API, api_key, api_secret, args.contest_id)
+        result = api_get(STANDINGS_API, api_key, api_secret, contest_id)
     except Exception as e:
         print(f"Error fetching contest: {e}")
         sys.exit(1)
 
     # Build the lean JSON and save
-    contest_json = build_contest_json(args.contest_id, args.contest_name, result)
+    contest_json = build_contest_json(contest_id, contest_name, result)
     print(f"Fetched {len(contest_json['standings'])} participants")
 
     save_standings(contest_json, args.contest_id)
