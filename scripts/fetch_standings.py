@@ -127,29 +127,16 @@ def api_get(url, api_key, api_secret, contest_id):
 def fetch_group_contest(group_id, contest_id):
     """Fetch standings for a group (mashup) contest.
 
-    Uses the group.contest.standings endpoint with API v2 authentication.
+    Uses the standard contest.standings endpoint with API v2 authentication,
+    which natively supports private group contests if the API key has manager access.
     """
     api_key, api_secret = load_group_credentials()
-    params = {'groupId': group_id, 'contestId': str(contest_id)}
-    signed = {
-        **params,
-        'apiKey': api_key,
-        'apiSig': make_api_sig(GROUP_STANDINGS_API, params, api_secret),
-    }
-    response = requests.get(
-        f'https://codeforces.com/api/{GROUP_STANDINGS_API}', params=signed, timeout=30,
-    )
-    response.raise_for_status()
-    payload = response.json()
-    if payload['status'] != 'OK':
-        comment = payload.get('comment', 'Unknown error')
-        if 'authorization' in comment.lower() or 'apikey' in comment.lower():
-            comment += (
-                ' (check that CODEFORCES_API_KEY/CODEFORCES_API_SECRET are valid '
-                f'and your account administers group {group_id})'
-            )
-        raise Exception(f'API error: {comment}')
-    return payload['result']
+    
+    try:
+        # Reuses the existing api_get function which already points to the correct STANDINGS_API
+        return api_get(STANDINGS_API, api_key, api_secret, contest_id)
+    except Exception as e:
+        raise Exception(f"API error: {e} (Check that your API keys are valid and your account administers group {group_id})")
 
 
 def build_contest_json(contest_id, contest_name, result, is_group=False):
