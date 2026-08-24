@@ -77,13 +77,11 @@ def make_api_sig(method, params, api_secret):
     return rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
 
-def api_get(url, api_key, api_secret, contest_id):
+def api_get(url, api_key, api_secret, contest_id, is_group=False):
     """Make API request to Codeforces.
 
-    Signs the request with apiKey and apiSig using the Codeforces
-    authentication protocol when credentials are provided. Properly handles
-    URLs that already contain query parameters (e.g. ?contestId=XXX).
-
+    Signs the request with apiKey, time, and apiSig using the Codeforces
+    authentication protocol when credentials are provided.
     Falls back to unauthenticated request if api_key/api_secret are None.
     """
     # If no credentials, make unauthenticated request (add contestId to URL)
@@ -97,26 +95,30 @@ def api_get(url, api_key, api_secret, contest_id):
         return payload['result']
 
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
+    
+    # Codeforces requires the current UNIX timestamp for authentication
+    current_time = str(int(datetime.now(timezone.utc).timestamp()))
 
-    # Parse existing URL to merge params correctly (avoids double ?)
-    from urllib.parse import urlparse, parse_qs, urlunparse
-    parsed = urlparse(url)
-    existing_params = parse_qs(parsed.query, keep_blank_values=True)
+    # Build params
+    all_params = {
+        'apiKey': api_key,
+        'contestId': str(contest_id),
+        'time': current_time
+    }
+    
+    # Group mashups require 'asManager=true' to be visible to group managers
+    if is_group:
+        all_params['asManager'] = 'true'
 
-    # Build params: existing params + apiKey + contestId
-    all_params = dict(existing_params)
-    all_params['apiKey'] = api_key
-    all_params['contestId'] = str(contest_id)
-
-    # Compute apiSig using the full parameter set
+    # Compute apiSig using the sorted parameter set
     sig_query = urlencode(sorted(all_params.items()))
     sig_source = f'{rand}/contest.standings?{sig_query}{api_secret}'
     api_sig = rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
-    # Final params for the request
-    final_params = {'apiKey': api_key, 'apiSig': api_sig, 'contestId': str(contest_id)}
+    # Final params for the request including the signature
+    all_params['apiSig'] = api_sig
 
-    response = requests.get(url, params=final_params, timeout=30)
+    response = requests.get(url, params=all_params, timeout=30)
     response.raise_for_status()
     payload = response.json()
     if payload['status'] != 'OK':
@@ -133,11 +135,10 @@ def fetch_group_contest(group_id, contest_id):
     api_key, api_secret = load_group_credentials()
     
     try:
-        # Reuses the existing api_get function which already points to the correct STANDINGS_API
-        return api_get(STANDINGS_API, api_key, api_secret, contest_id)
+        # Pass is_group=True to trigger the asManager flag in api_get
+        return api_get(STANDINGS_API, api_key, api_secret, contest_id, is_group=True)
     except Exception as e:
         raise Exception(f"API error: {e} (Check that your API keys are valid and your account administers group {group_id})")
-
 
 def build_contest_json(contest_id, contest_name, result, is_group=False):
     """Build the lean JSON structure from API result.
