@@ -1,0 +1,2091 @@
+{
+  "generatedAt": "2026-08-25T09:10:42.775004+00:00",
+  "totalContests": 1,
+  "contests": [
+    {
+      "id": 712105,
+      "name": "CodeMon Contest 1",
+      "date": 1787373900
+    }
+  ],
+  "participants": [
+    {
+      "rank": 1,
+      "handle": "g53155=25CSB0A55",
+      "seasonTotal": 33.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 2,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 2,
+          "problemsSolved": 4,
+          "basePoints": 29,
+          "firstACProblems": [
+            "C",
+            "D"
+          ],
+          "firstACBonus": 4,
+          "preStreakTotal": 33,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 33.0
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "handle": "g53155=25CSB1A20",
+      "seasonTotal": 32.0,
+      "wins": 1,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 1,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 1,
+          "problemsSolved": 5,
+          "basePoints": 30,
+          "firstACProblems": [
+            "E"
+          ],
+          "firstACBonus": 2,
+          "preStreakTotal": 32,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 32.0
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "handle": "g53155=25CSB0A04",
+      "seasonTotal": 30.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 5,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 5,
+          "problemsSolved": 3,
+          "basePoints": 26,
+          "firstACProblems": [
+            "A",
+            "B"
+          ],
+          "firstACBonus": 4,
+          "preStreakTotal": 30,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 30.0
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "handle": "g53155=25CEB0A05",
+      "seasonTotal": 28.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 3,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 3,
+          "problemsSolved": 4,
+          "basePoints": 28,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 28,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 28.0
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "handle": "g53155=25CSB1A08",
+      "seasonTotal": 27.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 4,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 4,
+          "problemsSolved": 3,
+          "basePoints": 27,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 27,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 27.0
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "handle": "g53155=25MCF1R05",
+      "seasonTotal": 25.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 6,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 6,
+          "problemsSolved": 3,
+          "basePoints": 25,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 25,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 25.0
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "handle": "g53155=24MMB0A42",
+      "seasonTotal": 24.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 7,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 7,
+          "problemsSolved": 3,
+          "basePoints": 24,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 24,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 24.0
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "handle": "g53155=25CSB0A62",
+      "seasonTotal": 23.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 8,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 8,
+          "problemsSolved": 3,
+          "basePoints": 23,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 23,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 23.0
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "handle": "g53155=24CSB0A87",
+      "seasonTotal": 22.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 9,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 9,
+          "problemsSolved": 2,
+          "basePoints": 22,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 22,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 22.0
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "handle": "g53155=25MCF1R07",
+      "seasonTotal": 21.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 10,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 10,
+          "problemsSolved": 2,
+          "basePoints": 21,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 21,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 21.0
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "handle": "g53155=25DSB0A14",
+      "seasonTotal": 20.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 11,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 11,
+          "problemsSolved": 2,
+          "basePoints": 20,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 20,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 20.0
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "handle": "g53155=24MMB0A53",
+      "seasonTotal": 19.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 12,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 12,
+          "problemsSolved": 2,
+          "basePoints": 19,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 19,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 19.0
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "handle": "g53155=25CSB0B76",
+      "seasonTotal": 19.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 12,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 12,
+          "problemsSolved": 2,
+          "basePoints": 19,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 19,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 19.0
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "handle": "g53155=25CSB0A20",
+      "seasonTotal": 17.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 14,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 14,
+          "problemsSolved": 2,
+          "basePoints": 17,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 17,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 17.0
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "handle": "g53155=25CSB1A21",
+      "seasonTotal": 16.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 15,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 15,
+          "problemsSolved": 2,
+          "basePoints": 16,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 16,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 16.0
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "handle": "g53155=25CSB0B88",
+      "seasonTotal": 15.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 16,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 16,
+          "problemsSolved": 2,
+          "basePoints": 15,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 15,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 15.0
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "handle": "g53155=25ECB0A03",
+      "seasonTotal": 14.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 17,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 17,
+          "problemsSolved": 2,
+          "basePoints": 14,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 14,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 14.0
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "handle": "g53155=25CSB0B67",
+      "seasonTotal": 13.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 18,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 18,
+          "problemsSolved": 2,
+          "basePoints": 13,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 13,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 13.0
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "handle": "g53155=25CSB1A06",
+      "seasonTotal": 13.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 18,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 18,
+          "problemsSolved": 2,
+          "basePoints": 13,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 13,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 13.0
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "handle": "g53155=25CSB0A08",
+      "seasonTotal": 11.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 20,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 20,
+          "problemsSolved": 2,
+          "basePoints": 11,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 11,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 11.0
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "handle": "g53155=25DSB0A43",
+      "seasonTotal": 11.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 20,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 20,
+          "problemsSolved": 2,
+          "basePoints": 11,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 11,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 11.0
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "handle": "g53155=25CSB0A05",
+      "seasonTotal": 9.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 22,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 22,
+          "problemsSolved": 2,
+          "basePoints": 9,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 9,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 9.0
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "handle": "g53155=25CSB1A03",
+      "seasonTotal": 8.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 23,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 23,
+          "problemsSolved": 2,
+          "basePoints": 8,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 8,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 8.0
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "handle": "g53155=25CSB1A80",
+      "seasonTotal": 7.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 24,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 24,
+          "problemsSolved": 2,
+          "basePoints": 7,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 7,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 7.0
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "handle": "g53155=25EEB0A39",
+      "seasonTotal": 6.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 25,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 25,
+          "problemsSolved": 2,
+          "basePoints": 6,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 6,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 6.0
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "handle": "g53155=25CSB0B55",
+      "seasonTotal": 5.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 26,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 26,
+          "problemsSolved": 2,
+          "basePoints": 5,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 5,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 5.0
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "handle": "g53155=25DSB0A32",
+      "seasonTotal": 4.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 27,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 27,
+          "problemsSolved": 2,
+          "basePoints": 4,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 4,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 4.0
+        }
+      }
+    },
+    {
+      "rank": 28,
+      "handle": "g53155=25CSB0B18",
+      "seasonTotal": 3.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 28,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 28,
+          "problemsSolved": 2,
+          "basePoints": 3,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 3,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 3.0
+        }
+      }
+    },
+    {
+      "rank": 29,
+      "handle": "g53155=25CSB0A37",
+      "seasonTotal": 2.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 29,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 29,
+          "problemsSolved": 2,
+          "basePoints": 2,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 2,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 2.0
+        }
+      }
+    },
+    {
+      "rank": 30,
+      "handle": "g53155=25DSB0A09",
+      "seasonTotal": 1.0,
+      "wins": 0,
+      "longestStreak": 1,
+      "currentStreak": 1,
+      "bestSingleRank": 30,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 30,
+          "problemsSolved": 2,
+          "basePoints": 1,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 1,
+          "activeStreak": 1,
+          "multiplier": 1.0,
+          "finalPoints": 1.0
+        }
+      }
+    },
+    {
+      "rank": 31,
+      "handle": "g53155=25CSB0B79",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 31,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 31,
+          "problemsSolved": 2,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 32,
+      "handle": "g53155=25CSB0A36",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 32,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 32,
+          "problemsSolved": 2,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 33,
+      "handle": "g53155=25CSB1A30",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 33,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 33,
+          "problemsSolved": 2,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 34,
+      "handle": "g53155=25CSB0B81",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 34,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 34,
+          "problemsSolved": 2,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 35,
+      "handle": "g53155=25DSB0A19",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 35,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 35,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 36,
+      "handle": "g53155=25CSB1A78",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 36,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 36,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 37,
+      "handle": "g53155=24CSB1A23",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 37,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 37,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 38,
+      "handle": "g53155=25CSB0B87",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 38,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 38,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 39,
+      "handle": "g53155=24CHB0B44",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 39,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 39,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 40,
+      "handle": "g53155=25CSB1A34",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 40,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 40,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 41,
+      "handle": "g53155=24CSB0A09",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 41,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 41,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 42,
+      "handle": "g53155=24MMB0A63",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 42,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 42,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 43,
+      "handle": "g53155=25CSB1A40",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 43,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 43,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 44,
+      "handle": "g53155=25CSB0A07",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 44,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 44,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 45,
+      "handle": "g53155=25CSB0B68",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 45,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 45,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 46,
+      "handle": "g53155=25CSB1A37",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 46,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 46,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 47,
+      "handle": "g53155=25CSB0A15",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 47,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 47,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 48,
+      "handle": "g53155=25ECB1A16",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 48,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 48,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 49,
+      "handle": "g53155=23CSB0A01",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 49,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 49,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 50,
+      "handle": "g53155=25DSB0A16",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 50,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 50,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 51,
+      "handle": "g53155=25DSB0A07",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 51,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 51,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 52,
+      "handle": "g53155=u01",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 52,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 52,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 53,
+      "handle": "g53155=24CSB1A03",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 53,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 53,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 54,
+      "handle": "g53155=24CSB0A48",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 54,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 54,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 55,
+      "handle": "g53155=26MCF1R58",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 55,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 55,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 56,
+      "handle": "g53155=24MMB0A64",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 56,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 56,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 57,
+      "handle": "g53155=24CSB0A57",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 57,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 57,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 58,
+      "handle": "g53155=24CSB0B29",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 58,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 58,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 59,
+      "handle": "g53155=25MCF1R38",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 59,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 59,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 60,
+      "handle": "g53155=25CSB1A74",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 60,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 60,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 61,
+      "handle": "g53155=25CSB0A24",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 61,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 61,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 62,
+      "handle": "g53155=25MCF1R53",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 62,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 62,
+          "problemsSolved": 1,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=24CHB0A03",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=24CSB0A10",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25BTB0A34",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A45",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A47",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A56",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A59",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A71",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A73",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0B54",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A16",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A46",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A51",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A55",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A57",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A59",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CYE0015",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25DSB0A38",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25ECB0A38",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25EEB0A56",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25MCF1R34",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25MCF1R50",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25SCB0A18",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R11",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R25",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R33",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R35",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R36",
+      "seasonTotal": 0.0,
+      "wins": 0,
+      "longestStreak": 0,
+      "currentStreak": 0,
+      "bestSingleRank": 63,
+      "contestsParticipated": 1,
+      "perContest": {
+        "712105": {
+          "rank": 63,
+          "problemsSolved": 0,
+          "basePoints": 0,
+          "firstACProblems": [],
+          "firstACBonus": 0,
+          "preStreakTotal": 0,
+          "activeStreak": 0,
+          "multiplier": null,
+          "finalPoints": 0.0
+        }
+      }
+    }
+  ]
+}

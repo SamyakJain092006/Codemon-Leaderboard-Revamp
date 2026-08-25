@@ -1,0 +1,4546 @@
+{
+  "contestId": 712105,
+  "contestName": "CodeMon Contest 1",
+  "startTime": 1787373900,
+  "durationSeconds": 7200,
+  "problems": [
+    {
+      "index": "A",
+      "name": "Preventing the Freeze"
+    },
+    {
+      "index": "B",
+      "name": "Prime Mission"
+    },
+    {
+      "index": "C",
+      "name": "Battle Ready Heroes"
+    },
+    {
+      "index": "D",
+      "name": "Accessing Knowhere"
+    },
+    {
+      "index": "E",
+      "name": "Avengers Assembly"
+    },
+    {
+      "index": "F",
+      "name": "Battleworld"
+    },
+    {
+      "index": "G",
+      "name": "Tile Weights"
+    }
+  ],
+  "standings": [
+    {
+      "rank": 1,
+      "handle": "g53155=25CSB1A20",
+      "score": 5.0,
+      "problemsSolved": 5,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2553
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2812
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3745
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4400
+        },
+        {
+          "index": "E",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6621
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 30,
+      "firstACProblems": [
+        "E"
+      ],
+      "firstACBonus": 2,
+      "preStreakTotal": 32,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 32.0
+    },
+    {
+      "rank": 2,
+      "handle": "g53155=25CSB0A55",
+      "score": 4.0,
+      "problemsSolved": 4,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4433
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1094
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2128
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3904
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 29,
+      "firstACProblems": [
+        "C",
+        "D"
+      ],
+      "firstACBonus": 4,
+      "preStreakTotal": 33,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 33.0
+    },
+    {
+      "rank": 3,
+      "handle": "g53155=25CEB0A05",
+      "score": 4.0,
+      "problemsSolved": 4,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 857
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1234
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2244
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6699
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 28,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 28,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 28.0
+    },
+    {
+      "rank": 4,
+      "handle": "g53155=25CSB1A08",
+      "score": 3.0,
+      "problemsSolved": 3,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 645
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1344
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5312
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 27,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 27,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 27.0
+    },
+    {
+      "rank": 5,
+      "handle": "g53155=25CSB0A04",
+      "score": 3.0,
+      "problemsSolved": 3,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 243
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 605
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6904
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 26,
+      "firstACProblems": [
+        "A",
+        "B"
+      ],
+      "firstACBonus": 4,
+      "preStreakTotal": 30,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 30.0
+    },
+    {
+      "rank": 6,
+      "handle": "g53155=25MCF1R05",
+      "score": 3.0,
+      "problemsSolved": 3,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 819
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5308
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4273
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 25,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 25,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 25.0
+    },
+    {
+      "rank": 7,
+      "handle": "g53155=24MMB0A42",
+      "score": 3.0,
+      "problemsSolved": 3,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4966
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3529
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6578
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 24,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 24,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 24.0
+    },
+    {
+      "rank": 8,
+      "handle": "g53155=25CSB0A62",
+      "score": 3.0,
+      "problemsSolved": 3,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1926
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6377
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5698
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 23,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 23,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 23.0
+    },
+    {
+      "rank": 9,
+      "handle": "g53155=24CSB0A87",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 605
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1622
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 22,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 22,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 22.0
+    },
+    {
+      "rank": 10,
+      "handle": "g53155=25MCF1R07",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1624
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2118
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 21,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 21,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 21.0
+    },
+    {
+      "rank": 11,
+      "handle": "g53155=25DSB0A14",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1321
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2872
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 20,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 20,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 20.0
+    },
+    {
+      "rank": 12,
+      "handle": "g53155=25CSB0B76",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1490
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3302
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 19,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 19,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 19.0
+    },
+    {
+      "rank": 12,
+      "handle": "g53155=24MMB0A53",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 947
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5091
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 19,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 19,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 19.0
+    },
+    {
+      "rank": 14,
+      "handle": "g53155=25CSB0A20",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 924
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2012
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 17,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 17,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 17.0
+    },
+    {
+      "rank": 15,
+      "handle": "g53155=25CSB1A21",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 841
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2773
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 16,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 16,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 16.0
+    },
+    {
+      "rank": 16,
+      "handle": "g53155=25CSB0B88",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4800
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2065
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 15,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 15,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 15.0
+    },
+    {
+      "rank": 17,
+      "handle": "g53155=25ECB0A03",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 682
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6468
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 14,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 14,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 14.0
+    },
+    {
+      "rank": 18,
+      "handle": "g53155=25CSB1A06",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2420
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1839
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 13,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 13,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 13.0
+    },
+    {
+      "rank": 18,
+      "handle": "g53155=25CSB0B67",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1445
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5161
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 13,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 13,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 13.0
+    },
+    {
+      "rank": 20,
+      "handle": "g53155=25CSB0A08",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1533
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5456
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 11,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 11,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 11.0
+    },
+    {
+      "rank": 20,
+      "handle": "g53155=25DSB0A43",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3893
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3065
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 11,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 11,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 11.0
+    },
+    {
+      "rank": 22,
+      "handle": "g53155=25CSB0A05",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3567
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4061
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 9,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 9,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 9.0
+    },
+    {
+      "rank": 23,
+      "handle": "g53155=25CSB1A03",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3430
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4222
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 8,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 8,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 8.0
+    },
+    {
+      "rank": 24,
+      "handle": "g53155=25CSB1A80",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2309
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6894
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 7,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 7,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 7.0
+    },
+    {
+      "rank": 25,
+      "handle": "g53155=25EEB0A39",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4306
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2898
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 6,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 6,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 6.0
+    },
+    {
+      "rank": 26,
+      "handle": "g53155=25CSB0B55",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1990
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5349
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 5,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 5,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 5.0
+    },
+    {
+      "rank": 27,
+      "handle": "g53155=25DSB0A32",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3640
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4337
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 4,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 4,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 4.0
+    },
+    {
+      "rank": 28,
+      "handle": "g53155=25CSB0B18",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1637
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6286
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 3,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 3,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 3.0
+    },
+    {
+      "rank": 29,
+      "handle": "g53155=25CSB0A37",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 777
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5439
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 2,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 2,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 2.0
+    },
+    {
+      "rank": 30,
+      "handle": "g53155=25DSB0A09",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3569
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3901
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 1,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 1,
+      "activeStreak": 1,
+      "multiplier": 1.0,
+      "finalPoints": 1.0
+    },
+    {
+      "rank": 31,
+      "handle": "g53155=25CSB0B79",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3356
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4460
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 32,
+      "handle": "g53155=25CSB0A36",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1321
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6545
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 33,
+      "handle": "g53155=25CSB1A30",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5601
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6629
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 34,
+      "handle": "g53155=25CSB0B81",
+      "score": 2.0,
+      "problemsSolved": 2,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5978
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6872
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 35,
+      "handle": "g53155=25DSB0A19",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 915
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 36,
+      "handle": "g53155=25CSB1A78",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1193
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 37,
+      "handle": "g53155=24CSB1A23",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1221
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 38,
+      "handle": "g53155=25CSB0B87",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1290
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 39,
+      "handle": "g53155=24CHB0B44",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1827
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 40,
+      "handle": "g53155=25CSB1A34",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 2201
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 41,
+      "handle": "g53155=24CSB0A09",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3717
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 42,
+      "handle": "g53155=24MMB0A63",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3045
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 43,
+      "handle": "g53155=25CSB1A40",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1998
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 44,
+      "handle": "g53155=25CSB0A07",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4455
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 45,
+      "handle": "g53155=25CSB0B68",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3598
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 46,
+      "handle": "g53155=25CSB1A37",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 1349
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 47,
+      "handle": "g53155=25CSB0A15",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3438
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 48,
+      "handle": "g53155=25ECB1A16",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4393
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 49,
+      "handle": "g53155=23CSB0A01",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3670
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 50,
+      "handle": "g53155=25DSB0A16",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 3464
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 51,
+      "handle": "g53155=25DSB0A07",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6623
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 52,
+      "handle": "g53155=u01",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6707
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 53,
+      "handle": "g53155=24CSB1A03",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6751
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 54,
+      "handle": "g53155=24CSB0A48",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4501
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 55,
+      "handle": "g53155=26MCF1R58",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6284
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 56,
+      "handle": "g53155=24MMB0A64",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5262
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 57,
+      "handle": "g53155=24CSB0A57",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6976
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 58,
+      "handle": "g53155=24CSB0B29",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 5993
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 59,
+      "handle": "g53155=25MCF1R38",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 4965
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 60,
+      "handle": "g53155=25CSB1A74",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6346
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 61,
+      "handle": "g53155=25CSB0A24",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 6921
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 62,
+      "handle": "g53155=25MCF1R53",
+      "score": 1.0,
+      "problemsSolved": 1,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": true,
+          "bestSubmissionTimeSeconds": 7058
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R33",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=24CSB0A10",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25BTB0A34",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A57",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25DSB0A38",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A59",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CYE0015",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A45",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25SCB0A18",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25ECB0A38",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25MCF1R50",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0B54",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R25",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A56",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A59",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25EEB0A56",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A47",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A55",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A16",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=24CHB0A03",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R11",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R36",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25MCF1R34",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A73",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB0A71",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A51",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=25CSB1A46",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    },
+    {
+      "rank": 63,
+      "handle": "g53155=26MCF1R35",
+      "score": 0.0,
+      "problemsSolved": 0,
+      "problemResults": [
+        {
+          "index": "A",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "B",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "C",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "D",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "E",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "F",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        },
+        {
+          "index": "G",
+          "solved": false,
+          "bestSubmissionTimeSeconds": null
+        }
+      ],
+      "basePoints": 0,
+      "firstACProblems": [],
+      "firstACBonus": 0,
+      "preStreakTotal": 0,
+      "activeStreak": 0,
+      "multiplier": null,
+      "finalPoints": 0.0
+    }
+  ]
+}
