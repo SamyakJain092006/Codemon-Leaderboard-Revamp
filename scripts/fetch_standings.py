@@ -73,7 +73,7 @@ def make_api_sig(method, params, api_secret):
     """Generate Codeforces API v2 signature."""
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
     query = urlencode(sorted(params.items()))
-    sig_source = f'{rand}/{method}?{query}{api_secret}'
+    sig_source = f'{rand}/{method}?{query}#{api_secret}'
     return rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
 
@@ -112,7 +112,7 @@ def api_get(url, api_key, api_secret, contest_id, is_group=False, group_id=None)
 
     # Compute apiSig using the sorted parameter set
     sig_query = urlencode(sorted(all_params.items()))
-    sig_source = f'{rand}/contest.standings?{sig_query}{api_secret}'
+    sig_source = f'{rand}/contest.standings?{sig_query}#{api_secret}'
     api_sig = rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
     # Final params for the request including the signature
