@@ -46,7 +46,7 @@ LIST_API = 'https://codeforces.com/api/contest.list'
 CONTESTS_DIR = os.path.join('data', 'contests')
 CONTESTS_INDEX_PATH = os.path.join(CONTESTS_DIR, 'index.json')
 
-
+# Safely loads the CODEFORCES_API_KEY and CODEFORCES_API_SECRET
 def load_credentials():
     """Load API credentials from environment variables."""
     api_key = os.environ.get('CODEFORCES_API_KEY')
@@ -77,7 +77,7 @@ def make_api_sig(method, params, api_secret):
     return rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
 
-def api_get(url, api_key, api_secret, contest_id, is_group=False):
+def api_get(url, api_key, api_secret, contest_id, is_group=False, group_id=None):
     """Make API request to Codeforces.
 
     Signs the request with apiKey, time, and apiSig using the Codeforces
@@ -95,7 +95,7 @@ def api_get(url, api_key, api_secret, contest_id, is_group=False):
         return payload['result']
 
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
-    
+
     # Codeforces requires the current UNIX timestamp for authentication
     current_time = str(int(datetime.now(timezone.utc).timestamp()))
 
@@ -105,10 +105,10 @@ def api_get(url, api_key, api_secret, contest_id, is_group=False):
         'contestId': str(contest_id),
         'time': current_time
     }
-    
-    # Group mashups require 'asManager=true' to be visible to group managers
-    if is_group:
-        all_params['asManager'] = 'true'
+
+    # Use the groupCode workaround for private mashups
+    if is_group and group_id:
+        all_params['groupCode'] = group_id
 
     # Compute apiSig using the sorted parameter set
     sig_query = urlencode(sorted(all_params.items()))
@@ -129,14 +129,14 @@ def api_get(url, api_key, api_secret, contest_id, is_group=False):
 def fetch_group_contest(group_id, contest_id):
     """Fetch standings for a group (mashup) contest.
 
-    Uses the standard contest.standings endpoint with API v2 authentication,
-    which natively supports private group contests if the API key has manager access.
+    Uses the standard contest.standings endpoint with API v2 authentication
+    and the groupCode parameter workaround to access private mashups.
     """
     api_key, api_secret = load_group_credentials()
-    
+
     try:
-        # Pass is_group=True to trigger the asManager flag in api_get
-        return api_get(STANDINGS_API, api_key, api_secret, contest_id, is_group=True)
+        # Pass both is_group=True and the group_id to api_get
+        return api_get(STANDINGS_API, api_key, api_secret, contest_id, is_group=True, group_id=group_id)
     except Exception as e:
         raise Exception(f"API error: {e} (Check that your API keys are valid and your account administers group {group_id})")
 
