@@ -6,19 +6,6 @@ Produces data/contests/contest_<id>.json containing per-participant
 rank, score, solved count and per-problem results with best submission
 times (for First-AC detection).
 
-Group contests
-use the authenticated group.contest.standings endpoint and require API
-credentials generated at https://codeforces.com/settings/api:
-
-    export CODEFORCES_API_KEY=...
-    export CODEFORCES_API_SECRET=...
-
-Usage:
-    python fetch_standings.py <contest_id> [contest_name]
-    python fetch_standings.py <contest_id> [contest_name] --group GROUP_ID
-    python fetch_standings.py --contest-id ID [--contest-name NAME] --group GROUP_ID
-    python fetch_standings.py --list
-
 Note: API credentials must be set via environment variables:
     export CODEFORCES_API_KEY=...
     export CODEFORCES_API_SECRET=...
@@ -39,8 +26,6 @@ import requests
 
 # API endpoints
 STANDINGS_API = 'https://codeforces.com/api/contest.standings'
-GROUP_STANDINGS_API = 'group.contest.standings'
-LIST_API = 'https://codeforces.com/api/contest.list'
 
 # Output directories
 CONTESTS_DIR = os.path.join('data', 'contests')
@@ -48,12 +33,12 @@ CONTESTS_INDEX_PATH = os.path.join(CONTESTS_DIR, 'index.json')
 
 # Safely loads the CODEFORCES_API_KEY and CODEFORCES_API_SECRET
 def load_credentials():
-    """Load API credentials from environment variables."""
+    """Load API credentials from environment variables OF Github."""
     api_key = os.environ.get('CODEFORCES_API_KEY')
     api_secret = os.environ.get('CODEFORCES_API_SECRET')
     return api_key, api_secret
 
-
+# Safely loads the CODEFORCES_API_KEY and CODEFORCES_API_SECRET for Private Groups in Codeforces and terminates if the key or secret is not available
 def load_group_credentials():
     """Load group contest API credentials from environment variables."""
     api_key = os.environ.get('CODEFORCES_API_KEY')
@@ -67,14 +52,6 @@ def load_group_credentials():
             '  export CODEFORCES_API_SECRET=...'
         )
     return api_key, api_secret
-
-
-def make_api_sig(method, params, api_secret):
-    """Generate Codeforces API v2 signature."""
-    rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
-    query = urlencode(sorted(params.items()))
-    sig_source = f'{rand}/{method}?{query}#{api_secret}'
-    return rand + hashlib.sha512(sig_source.encode()).hexdigest()
 
 
 def api_get(url, api_key, api_secret, contest_id, is_group=False, group_id=None):
@@ -96,17 +73,17 @@ def api_get(url, api_key, api_secret, contest_id, is_group=False, group_id=None)
 
     rand = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
 
-    # Codeforces requires the current UNIX timestamp for authentication
+    # Creating the current UNIX timestamp for authentication
     current_time = str(int(datetime.now(timezone.utc).timestamp()))
 
-    # Build params
+    # Building params
     all_params = {
         'apiKey': api_key,
         'contestId': str(contest_id),
         'time': current_time
     }
 
-    # Use the groupCode workaround for private mashups
+    # Use the groupCode for private mashups
     if is_group and group_id:
         all_params['groupCode'] = group_id
 
@@ -125,7 +102,7 @@ def api_get(url, api_key, api_secret, contest_id, is_group=False, group_id=None)
         raise Exception(f"API error: {payload.get('comment', 'Unknown error')}")
     return payload['result']
 
-
+# Wrapper function for private group contests mashup, ensuring api_key and api_secret are present before calling the api_get
 def fetch_group_contest(group_id, contest_id):
     """Fetch standings for a group (mashup) contest.
 
@@ -140,6 +117,7 @@ def fetch_group_contest(group_id, contest_id):
     except Exception as e:
         raise Exception(f"API error: {e} (Check that your API keys are valid and your account administers group {group_id})")
 
+# Extracts details such as contest, problems, and problem labels from raw Codeforces responses.
 def build_contest_json(contest_id, contest_name, result, is_group=False):
     """Build the lean JSON structure from API result.
 
@@ -151,6 +129,7 @@ def build_contest_json(contest_id, contest_name, result, is_group=False):
     problems = result.get('problems', [])
     problem_indices = [p['index'] for p in problems]
 
+    # Filtering out non-official participants (ignoring practice attempts, manager tests, out-of-competition submissions, and ghost users)
     standings = []
     for row in result.get('rows', []):
         party = row['party']
@@ -181,6 +160,7 @@ def build_contest_json(contest_id, contest_name, result, is_group=False):
             'problemResults': problem_results,
         })
 
+    # Sorting the standings by overall rank and building the final JSON file directory
     standings.sort(key=lambda x: x['rank'])
 
     return {
@@ -192,7 +172,7 @@ def build_contest_json(contest_id, contest_name, result, is_group=False):
         'standings': standings,
     }
 
-
+# Reads the master contest catalog file if present; else defaults to an empty list
 def load_index():
     """Load the contests index file, or return empty index."""
     if os.path.exists(CONTESTS_INDEX_PATH):
@@ -200,9 +180,9 @@ def load_index():
             return json.load(f)
     return {'contests': []}
 
-
+# Add or update a contest entry in the index.
 def update_index(index, contest_id, contest_name, date):
-    """Add or update a contest entry in the index."""
+    
     contests = [c for c in index.get('contests', []) if c['id'] != contest_id]
     contests.append({
         'id': contest_id,
@@ -211,9 +191,9 @@ def update_index(index, contest_id, contest_name, date):
     })
     index['contests'] = contests
 
-
+# Save the contests index, sorted by date then ID.
 def save_index(index):
-    """Save the contests index, sorted by date then ID."""
+    
     contests = sorted(
         index['contests'],
         key=lambda c: (c.get('date') or '9999-12-31', c['id']),
@@ -223,9 +203,9 @@ def save_index(index):
     with open(CONTESTS_INDEX_PATH, 'w') as f:
         json.dump(index, f, indent=2)
 
-
+# Save the contest JSON to data/contests/contest_<id>.json.
 def save_standings(contest_json, contest_id):
-    """Save the contest JSON to data/contests/contest_<id>.json."""
+    
     os.makedirs(CONTESTS_DIR, exist_ok=True)
     out_path = os.path.join(CONTESTS_DIR, f'contest_{contest_id}.json')
     with open(out_path, 'w') as f:
