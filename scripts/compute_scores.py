@@ -26,18 +26,19 @@ import os
 import sys
 from datetime import datetime, timezone
 
+# Calulcations constants: 
 BASE_POINTS_DEPTH = 30
 FIRST_AC_BONUS = 2
 MULTIPLIERS = {0: 1.00, 1: 1.00, 2: 1.05, 3: 1.10}
 MULTIPLIER_CAP = 1.15
 
-
+# Returns the correspoding multiplier of each participants, based on their current active streak
 def multiplier_for(streak):
     if streak <= 3:
         return MULTIPLIERS[streak]
     return MULTIPLIER_CAP
 
-
+# Constructs the path to index.json
 def load_contests(contests_dir):
     index_path = os.path.join(contests_dir, 'index.json')
     if not os.path.exists(index_path):
