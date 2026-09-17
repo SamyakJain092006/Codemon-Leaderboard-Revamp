@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-17T21:55:01.414134+00:00",
+  "generatedAt": "2026-09-17T21:55:37.675134+00:00",
   "totalContests": 1,
   "contests": [
     {
       "id": 712105,
-      "name": "CodeMon Contest 1",
+      "name": "Codemon 1",
       "date": 1787373900
     }
   ],
